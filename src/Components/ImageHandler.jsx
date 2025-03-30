@@ -168,7 +168,7 @@ const ImageHandler = ({username, quote}) => {
                             </div>
                             <div className=' flex items-center gap-2 mt-5'>
                                 <div className='w-[45px] h-[45px] rounded-full'>
-                                    <img style={{borderColor: `${averageColor}`}} className={`rounded-full p-[2px] h-full object-cover w-full border-[2px]`} src={avatar ? avatar : "/assets/null_avatar.jpg"} alt="" />
+                                    <img style={{borderColor: `${averageColor}`}} className={`rounded-full p-[2px] h-[45px] object-cover w-[45px] border-[2px]`} src={avatar ? avatar : "/assets/null_avatar.jpg"} alt="" />
                                 </div>
                                 <h2 style={{color: `${averageColor ? averageColor : "#fff"}`}} className='text-lg uppercase font-semibold'>{username ? username : "e card"}</h2>
                             </div>
