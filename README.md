@@ -1,12 +1,54 @@
-# React + Vite
+# E-CARD
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Website](https://img.shields.io/badge/Live%20Demo-E--CARD-blue?style=for-the-badge&logo=vercel)](https://e-card-omega.vercel.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github)](https://github.com/spsujoy007/E-CARD)
 
-Currently, two official plugins are available:
+## 🚀 About The Project
+E-CARD is a simple yet dynamic web application where users can share their thoughts, wishes, and messages with personalized styling. This practice project allows users to create a beautiful e-card with their own:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Background Image 🎨
+- Avatar 🖼️
+- Name & Quote ✍️
+- Dynamic Avatar Border Color (Changes based on the background image) 🌈
 
-## Expanding the ESLint configuration
+Once the e-card is designed, users can **download** their final creation with a single click! 📥
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔥 Features
+✅ Upload a custom background image.  
+✅ Add an avatar, name, and quote.  
+✅ Avatar border color changes dynamically based on the background.  
+✅ Preview your personalized e-card before saving.  
+✅ Download your card with a single click.  
+
+## 🛠️ Tech Stack
+- **Frontend:** React
+- **Deployment:** Vercel
+
+## 🎮 Live Demo
+[🔗 Visit E-CARD](https://e-card-omega.vercel.app/)
+
+## 📂 Installation & Setup
+If you want to run the project locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/spsujoy007/E-CARD.git
+
+# Navigate to the project folder
+cd E-CARD
+
+# Open the index.html file in your browser
+```
+
+## 🏗️ Future Enhancements
+- 🎭 More customization options (Fonts, Colors, Stickers)
+- 📤 Direct sharing to social media platforms
+- 🎨 Pre-designed templates
+
+## 🤝 Contributing
+Feel free to fork the project, raise issues, or submit pull requests to improve the project. Your contributions are always welcome! 🚀
+
+## 📞 Contact
+For any suggestions or collaboration, reach out to me on GitHub!  
+[GitHub Profile](https://github.com/spsujoy007/)
+
