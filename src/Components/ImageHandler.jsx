@@ -94,7 +94,7 @@ const ImageHandler = ({username, quote}) => {
     return (
         <div>
             <div className='flex flex-col-reverse md:flex-row gap-2'>
-            <div className='md:w-[45%]'>
+            <div className='md:w-[45%] p-5 md:p-0'>
                 <div className=''>
                     <label htmlFor="user_avatar" className='relative group duration-300'>
                         {
@@ -153,7 +153,7 @@ const ImageHandler = ({username, quote}) => {
 
             {/* // main card  */}
             <section  className='md:w-[55%] md:mt-0 mt-10'>
-            <div ref={cardRef} className=' h-[550px] rounded-lg  px-10 py-5 relative overflow-hidden' style={{backgroundImage: `url('${backgroundImg}')`, backgroundPosition: 'left', backgroundSize: "cover",}}>
+            <div ref={cardRef} className=' md:h-[550px] h-[600px] md:rounded-lg  md:px-10 px-5 md:py-5 py-10 relative overflow-hidden' style={{backgroundImage: `url('${backgroundImg}')`, backgroundPosition: 'left', backgroundSize: "cover",}}>
             <div className='absolute inset-0 w-full h-full z-10 bg-[#0000007a]' style={{backdropFilter: 'blur(10px)'}}>
             </div>
                 <div className='h-full w-full rounded-lg relative overflow-hidden z-20'>
@@ -180,7 +180,10 @@ const ImageHandler = ({username, quote}) => {
             </section>
 
         </div>
+        
+        <div className='md:p-0 px-5 pb-10'>
             <button onClick={downloadCard} className='w-full cursor-pointer py-2 bg-[#622912] text-white mt-5 rounded-lg'>Download</button>
+        </div>
         </div>
     );
 };
